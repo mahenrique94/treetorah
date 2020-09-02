@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:id="@+id/listAdapter_tvYear"
+            android:layout_marginRight="10dp"
+            android:text="YEAR"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:id="@+id/listAdapter_tvState"
+            android:text="State"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_marginRight="60dp"
+            android:id="@+id/listAdapter_tvTreesCutted"
+            android:text="Cutted"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_marginRight="55dp"
+            android:id="@+id/listAdapter_tvVolume"
+            android:text="Volume"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:id="@+id/listAdapter_tvTreesReplace"
+            android:text="Replace"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:id="@+id/listAdapter_tvValueToPay"
+            android:text="Value"
+            android:layout_width="match_parent"/>
+
+    </TableRow>
+
+</TableLayout>

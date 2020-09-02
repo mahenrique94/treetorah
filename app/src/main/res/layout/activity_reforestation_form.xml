@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ReforestationFormActivity">
+
+    <EditText
+        android:digits="0123456789"
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholder_year"
+        android:id="@+id/reforestationForm_etYear"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:maxLength="4"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholder_state"
+        android:id="@+id/reforestationForm_etState"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:maxLength="2"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:digits="0123456789"
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholder_treeCutted"
+        android:id="@+id/reforestationForm_etTreesCutted"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:digits="0123456789"
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholder_volume"
+        android:id="@+id/reforestationForm_etVolume"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:id="@+id/reforestationForm_btnSave"
+        android:text="@string/btn_save"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>

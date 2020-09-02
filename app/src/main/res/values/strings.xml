@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">TreeTorah</string>
+    <string name="reforestation_list_title">TreeTorah - Lista de Reflorestamento</string>
+    <string name="reforestation_form_title">TreeTorah - Cadastro de Reflorestamento</string>
+
+    <string name="btn_save">Salvar</string>
+
+    <string name="placeholder_state">Estado</string>
+    <string name="placeholder_treeCutted">Árvores Cortadas</string>
+    <string name="placeholder_volume">Volume</string>
+    <string name="placeholder_year">Ano</string>
+
+</resources>
